@@ -1,0 +1,8 @@
+[build]
+command = 'nuxt build && nuxt export'
+publish = 'dist'
+functions = 'functions'
+
+[[redirects]]
+from = '/f/*'
+to = '/.netlify/functions/:splat'
