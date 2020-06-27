@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <v-navigation-drawer v-model="drawer" app>
-      <v-list nav="nav">
+      <v-list nav>
         <v-list-item
           v-for="{ route, name } in nav"
           :key="name"
@@ -16,7 +16,7 @@
         </v-list-item>
       </v-list>
     </v-navigation-drawer>
-    <v-app-bar app="app" color="primary">
+    <v-app-bar app color="primary">
       <v-app-bar-nav-icon @click="drawer = !drawer" />
       <v-toolbar-title>Title</v-toolbar-title>
       <v-spacer />
@@ -28,11 +28,11 @@
           <v-alert type="warning">
             Ce site est en cours de développement.
           </v-alert>
-          <slot />
+          <nuxt />
         </div>
       </v-container>
     </v-main>
-    <v-footer app="app" absolute="absolute" color="primary">
+    <v-footer app absolute color="primary">
       <v-row justify="center">
         Développé par Vincent GIRAUD
       </v-row>
