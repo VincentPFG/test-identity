@@ -41,12 +41,7 @@
 </template>
 
 <script>
-import Dark from '../components/Dark.vue'
-
 export default {
-  components: {
-    Dark,
-  },
   data() {
     return {
       drawer: null,
