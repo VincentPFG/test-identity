@@ -35,7 +35,7 @@ export default {
   content: {},
 
   vuetify: {
-    customVariables: ['~/assets/variables.scss'],
+    // customVariables: ['~/assets/variables.scss'],
     theme: {
       dark: true,
       themes: {
