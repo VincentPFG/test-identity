@@ -22,7 +22,7 @@ export default {
 
   css: [],
 
-  plugins: [],
+  plugins: [].map((plugin) => '@/plugins/' + plugin),
 
   components: true,
 
