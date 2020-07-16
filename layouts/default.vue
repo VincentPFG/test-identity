@@ -24,12 +24,10 @@
     </v-app-bar>
     <v-main>
       <v-container>
-        <div class="d-flex flex-column justify-space-around">
-          <v-alert type="warning">
-            Ce site est en cours de développement.
-          </v-alert>
-          <nuxt />
-        </div>
+        <v-alert type="warning">
+          Ce site est en cours de développement.
+        </v-alert>
+        <nuxt />
       </v-container>
     </v-main>
     <v-footer app absolute color="primary">

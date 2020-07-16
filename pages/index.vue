@@ -1,3 +1,7 @@
 <template>
-  <div><h1>Hello Nuxt!</h1></div>
+  <Spacer>
+    <h1 class="text-center">
+      Hello Nuxt!
+    </h1>
+  </Spacer>
 </template>
