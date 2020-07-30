@@ -4,8 +4,12 @@
   "private": true,
   "scripts": {
     "dev": "nuxt",
-    "serve": "nuxt generate && nuxt serve",
-    "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore ."
+    "gen": "nuxt generate",
+    "serve": "nuxt serve",
+    "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "ntl:init": "ntl init",
+    "ntl:dev": "ntl dev",
+    "ntl:deploy": "ntl deploy"
   },
   "dependencies": {
     "@nuxt/content": "^1.3.2",
