@@ -1,5 +1,5 @@
 [build]
-command = 'nuxt build && nuxt export'
+command = 'nuxt generate'
 publish = 'dist'
 functions = 'functions'
 
