@@ -24,7 +24,7 @@ export default {
 
   css: [],
 
-  plugins: [].map((plugin) => '@/plugins/' + plugin),
+  plugins: ['identity.client'].map((plugin) => '@/plugins/' + plugin),
 
   components: true,
 
