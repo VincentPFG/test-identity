@@ -1,6 +1,7 @@
 backend:
-  name: github
-  repo: vincentpfg/test-ncms
+  # name: github
+  # repo: vincentpfg/test-ncms
+  name: git-gateway
 
 media_folder: static/img
 public_folder: /img
